@@ -68,33 +68,50 @@ main{
 }
 
 article{
+  min-width: 300px;
+  max-width: 800px;
   padding: 10px;
-  margin: 50px;
+  margin: auto;
   background-color: var(--cor03);
   border-radius: 5px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 article img{
   width: 350px;
 }
 
+article p {
+  padding-top: 15px;
+}
+
 aside{
+  min-width: 300px;
+  max-width: 800px;
   padding: 10px;
-  margin: 45px;
+  margin: auto;
   background-color: var(--cor03);
   border-radius: 5px;
   text-align: center;
-  columns: 3;
+ 
 }
-
+aside h1{
+  text-align: center;
+  padding-bottom: 30px;
+}
 aside p{
-  font-size: 25px;
+  font-size: 14px;
   text-align: center;
 }
 
 aside img{
   width: 150px;
+  
+}
+div{
+  display: inline-block;
+  padding: 20px;
 }
 
 
